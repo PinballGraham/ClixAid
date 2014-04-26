@@ -1,0 +1,51 @@
+Colour id associative array:
+  attrib: colour id string
+  fill colour
+  black border bool
+  white number bool
+
+Stat:
+  number
+  colour id
+
+Click page:
+  slot string
+  slot colour
+  speed stat
+  attack stat
+  defense stat
+  damage stat
+  start bar colour
+
+Click list:
+  array of click pages
+
+Character:
+  name
+  click list
+  points
+  range
+  ranged targets
+
+Box:
+  outline rect
+  background rect
+  value string
+  outline colour
+  background colour
+  value colour
+
+Click slot:
+  slot box
+  speed box
+  attack box
+  defense box
+  damage box
+
+Panel:
+  character ref
+  click back button
+  click forward button
+  current click pos
+  click slot
+  name string
