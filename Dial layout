@@ -1,0 +1,19 @@
+3 pixel gap at the top
+name, 3 pixel gap to the left and right
+3 pixel spacer
+points, 3 pixel gap to the left, right edge is 50% of width
+range/targets, left edge is 50% of width, right edge has 3 pixel gap
+3 pixel spacer
+all of this should sum to 25% of the height
+3 pixel spacer
+2 pixel gap at the very bottom
+white background rect fills the remaining height
+2 pixel border on all sides of the rect
+5 pixel gap between 1st/2nd and 2nd/3rd rows
+5 pixel gap between columns
+divide remainder by 3 to get value rect size
+use value rect size * 2 + 5 + 2 + 2 to get white background width
+3 pixel gap to left and right of background rect
+plus and minus buttons take remaining width
+make buttons height 50% of the backround rect height
+buttons vertically centered with background rect
